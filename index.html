@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://1000logos.net/wp-content/uploads/2020/08/Imdb-logo.jpg" type="image/x-icon">
+    <title>IMDB Movie App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="header">IMDB MOVIE APP</h1>
+        </div>
+    </header>
+    
+    <section>
+        <div class="search-cont">
+            <div class="search-bars" style="display: none;">
+                <img src="#" alt="">
+                <input id="api" type="text" value="fa59669b" placeholder="Enter Your API Key Here">
+            </div>
+        </div>
+        
+            <div class="search-bars">
+                <img src="#" alt="">
+                <input id="movie" type="text" placeholder="Search here">
+                <button id="search-btn" style="background-color: red; font-size: 20px;">Search</button>
+
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="loader">
+            <div class="buffer hide">
+            </div>
+        </div>
+
+        <div id="movie-container">
+           
+        </div>
+
+        <div class="error">
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
